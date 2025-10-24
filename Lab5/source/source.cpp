@@ -74,4 +74,6 @@ void task() {
     std::cout << "Median : " << med << std::endl;
     std::cout << "Moda: " << moda << std::endl;
     std::cout << "Standard otklonenie: " << st_ot << std::endl;
+
+    delete[] d;
 }
